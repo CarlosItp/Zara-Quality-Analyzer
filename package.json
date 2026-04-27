@@ -1,0 +1,16 @@
+{
+  "name": "zara-quality-claude",
+  "version": "1.0.0",
+  "description": "Analizador de calidad Zara con Claude 3.5 AI",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.24.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "puppeteer": "^24.40.0"
+  }
+}
